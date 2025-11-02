@@ -1,6 +1,6 @@
 import { NavLink, useLocation } from "react-router-dom";
 import { LayoutDashboard, Users, Contact, Kanban, Bot, Settings, LogOut, MessageCircle, Mail, Brain, UserCog, BookOpen, Building2, DollarSign, Headphones, TrendingUp, ChevronDown, ChevronRight, Phone, UserCheck, CheckCircle, Target, Mic, Database, FileText } from "lucide-react";
-import hikmaLogo from "../assets/HikmaFlow.png";
+import hikmaLogo from "../assets/hikmaflow-logo-simple.svg";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
