@@ -326,7 +326,7 @@ const OrganizationSignup: React.FC = () => {
               Start Your CRM Journey
             </h1>
             <p className="text-xl text-gray-600">
-              Create your organization and get started with NeuraCRM in minutes
+              Create your organization and get started with HikmaFlow in minutes
             </p>
           </div>
 

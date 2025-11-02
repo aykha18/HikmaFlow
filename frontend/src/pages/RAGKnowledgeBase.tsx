@@ -209,7 +209,7 @@ const RAGKnowledgeBase: React.FC = () => {
                 type="text"
                 value={question}
                 onChange={(e) => setQuestion(e.target.value)}
-                placeholder="Ask a question about NeuraCRM..."
+                placeholder="Ask a question about HikmaFlow..."
                 className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                 onKeyPress={(e) => e.key === 'Enter' && handleQA()}
               />

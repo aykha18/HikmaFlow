@@ -1,5 +1,5 @@
 """
-NeuraCRM - Simplified FastAPI Application
+HikmaFlow - Simplified FastAPI Application
 Single file startup for local development and Railway deployment
 """
 
@@ -102,7 +102,7 @@ class Deal(Base):
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Application lifespan manager"""
-    print("Starting NeuraCRM...")
+    print("Starting HikmaFlow...")
 
     # Initialize database
     try:
@@ -113,11 +113,11 @@ async def lifespan(app: FastAPI):
 
     yield
 
-    print("NeuraCRM shutting down...")
+    print("HikmaFlow shutting down...")
 
 # Create FastAPI app
 app = FastAPI(
-    title="NeuraCRM API",
+    title="HikmaFlow API",
     description="AI-powered Customer Relationship Management system",
     version="1.0.0",
     lifespan=lifespan
@@ -190,12 +190,12 @@ class DealResponse(BaseModel):
 @app.get("/health")
 async def health_check():
     """Health check endpoint"""
-    return {"status": "healthy", "service": "NeuraCRM"}
+    return {"status": "healthy", "service": "HikmaFlow"}
 
 @app.get("/api/health")
 async def api_health_check():
     """API health check endpoint"""
-    return {"status": "healthy", "service": "NeuraCRM API"}
+    return {"status": "healthy", "service": "HikmaFlow API"}
 
 from fastapi.responses import HTMLResponse
 
@@ -206,7 +206,7 @@ async def root():
         with open("frontend_dist/index.html", "r", encoding="utf-8") as f:
             return f.read()
     except FileNotFoundError:
-        return HTMLResponse("<h1>NeuraCRM</h1><p>Frontend not built yet. Please run build process.</p>", status_code=200)
+        return HTMLResponse("<h1>HikmaFlow</h1><p>Frontend not built yet. Please run build process.</p>", status_code=200)
 
 @app.post("/api/auth/login")
 async def login(request: Request, db: Session = Depends(get_db)):
@@ -973,7 +973,7 @@ async def get_knowledge_base(current_user: User = Depends(get_current_user), db:
             "id": 1,
             "title": "Getting Started Guide",
             "slug": "getting-started",
-            "content": "Complete guide to getting started with NeuraCRM",
+            "content": "Complete guide to getting started with HikmaFlow",
             "category": "getting_started",
             "status": "published",
             "view_count": 150,
@@ -1223,7 +1223,7 @@ async def serve_spa(path: str):
     try:
         return FileResponse("frontend_dist/index.html", media_type="text/html")
     except FileNotFoundError:
-        return HTMLResponse("<h1>NeuraCRM</h1><p>Frontend not built yet. Please run build process.</p>", status_code=200)
+        return HTMLResponse("<h1>HikmaFlow</h1><p>Frontend not built yet. Please run build process.</p>", status_code=200)
 
 if __name__ == "__main__":
     import uvicorn

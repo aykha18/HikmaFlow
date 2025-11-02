@@ -1,5 +1,5 @@
 """
-RAG (Retrieval-Augmented Generation) Service for NeuraCRM
+RAG (Retrieval-Augmented Generation) Service for HikmaFlow
 Provides intelligent knowledge base Q&A capabilities with hallucination prevention
 """
 
@@ -65,7 +65,7 @@ class RAGService:
         self.openai_client = OpenAI(api_key=self.openai_api_key)
 
         # Configuration
-        self.index_name = "neuracrm-knowledge"
+        self.index_name = "hikmaflow-knowledge"
         self.dimension = 1536  # OpenAI text-embedding-ada-002
         self.metric = "cosine"
         self.chunk_size = 1000

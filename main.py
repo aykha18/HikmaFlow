@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Main entry point for the CRM application.
+Main entry point for the HikmaFlow CRM application.
 This file is used for deployment to ensure proper module resolution.
 Updated: Force fresh deployment
 """
@@ -64,7 +64,7 @@ except Exception as e:
     from fastapi.middleware.cors import CORSMiddleware
     from datetime import datetime
     
-    app = FastAPI(title="CRM API - Fallback Mode")
+    app = FastAPI(title="HikmaFlow API - Fallback Mode")
     
     # CORS setup
     app.add_middleware(
@@ -77,7 +77,7 @@ except Exception as e:
     
     @app.get("/")
     def read_root():
-        return {"message": "CRM API is running (fallback mode).", "status": "healthy"}
+        return {"message": "HikmaFlow API is running (fallback mode).", "status": "healthy"}
     
     @app.get("/api/ping")
     def ping():
@@ -88,7 +88,7 @@ except Exception as e:
         return {"status": "healthy", "message": "Service is running (fallback mode)"}
 
 if __name__ == "__main__":
-    logger.info("Starting CRM Application...")
+    logger.info("Starting HikmaFlow Application...")
     
     # Wait for database to be available
     if not wait_for_database():

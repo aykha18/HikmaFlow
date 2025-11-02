@@ -749,13 +749,13 @@ class RetellAIService:
                     "model": "gpt-4o",
                     "temperature": 0.7,
                     "max_tokens": 150,
-                    "system_prompt": """You are Sarah, a professional sales representative from NeuraCRM. 
+                    "system_prompt": """You are Sarah, a professional sales representative from HikmaFlow. 
                     You're calling to introduce our AI-powered CRM solution that helps businesses streamline operations.
                     Be friendly, professional, and focus on understanding their current business challenges.
                     Keep responses concise and natural for phone conversations.
                     If they're interested, ask qualifying questions about their team size, current CRM usage, and pain points."""
                 },
-                "end_call_message": "Thank you for your time today. I'll send you some information about NeuraCRM via email. Have a great day!",
+                "end_call_message": "Thank you for your time today. I'll send you some information about HikmaFlow via email. Have a great day!",
                 "end_call_phrases": ["not interested", "not now", "goodbye", "bye", "end call"],
                 "webhook_url": f"{self.webhook_base_url}/api/conversational-ai/webhook/sales",
                 "max_duration_seconds": 900  # 15 minutes
@@ -769,7 +769,7 @@ class RetellAIService:
                     "model": "gpt-4o",
                     "temperature": 0.5,
                     "max_tokens": 200,
-                    "system_prompt": """You are Alex, a customer support specialist from NeuraCRM.
+                    "system_prompt": """You are Alex, a customer support specialist from HikmaFlow.
                     You're here to help resolve customer issues and provide excellent support.
                     Be empathetic, patient, and solution-focused. Ask clarifying questions to understand the problem.
                     Provide step-by-step solutions and offer to follow up if needed.
@@ -789,8 +789,8 @@ class RetellAIService:
                     "model": "gpt-4o",
                     "temperature": 0.6,
                     "max_tokens": 180,
-                    "system_prompt": """You are Michael, a lead qualification specialist from NeuraCRM.
-                    You're calling to understand the prospect's needs and determine if NeuraCRM is a good fit.
+                    "system_prompt": """You are Michael, a lead qualification specialist from HikmaFlow.
+                    You're calling to understand the prospect's needs and determine if HikmaFlow is a good fit.
                     Ask about their current business processes, team size, pain points, and budget considerations.
                     Be consultative and focus on understanding their challenges rather than pushing the product.
                     Keep responses conversational and natural for phone calls."""
@@ -809,14 +809,14 @@ class RetellAIService:
                     "model": "gpt-4o",
                     "temperature": 0.7,
                     "max_tokens": 120,
-                    "system_prompt": """You are Jessica, an appointment coordinator from NeuraCRM.
+                    "system_prompt": """You are Jessica, an appointment coordinator from HikmaFlow.
                     You're calling to schedule a personalized demo for qualified prospects.
                     Be flexible with scheduling and offer multiple time options.
                     Confirm contact details and send calendar invites.
                     Keep the conversation brief and focused on scheduling.
-                    Be enthusiastic about showing them how NeuraCRM can help their business."""
+                    Be enthusiastic about showing them how HikmaFlow can help their business."""
                 },
-                "end_call_message": "Perfect! I'll send you a calendar invite with all the details. Looking forward to showing you NeuraCRM in action!",
+                "end_call_message": "Perfect! I'll send you a calendar invite with all the details. Looking forward to showing you HikmaFlow in action!",
                 "end_call_phrases": ["not interested", "not now", "goodbye", "bye"],
                 "webhook_url": f"{self.webhook_base_url}/api/conversational-ai/webhook/booking",
                 "max_duration_seconds": 300  # 5 minutes

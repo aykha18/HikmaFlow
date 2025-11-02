@@ -29,7 +29,7 @@ export function UserProvider({ children }: { children: React.ReactNode }) {
         const mockUser: User = {
           id: 1,
           name: "Ayaan Khan",
-          email: "ayaan.khan@neuracrm.com",
+          email: "ayaan.khan@hikmaflow.com",
           role: "admin"
         };
         setUser(mockUser);

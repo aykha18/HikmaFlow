@@ -64,7 +64,7 @@ const Landing: React.FC = () => {
       name: "Sarah Johnson",
       role: "Sales Director",
       company: "TechCorp",
-      content: "NeuraCRM increased our conversion rate by 40% in just 3 months. The AI insights are game-changing!",
+      content: "HikmaFlow increased our conversion rate by 40% in just 3 months. The AI insights are game-changing!",
       rating: 5
     },
     {
@@ -145,11 +145,11 @@ const Landing: React.FC = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <img className="h-8 w-auto" src="/assets/NeuraCRM--QfIME8Q.png" alt="NeuraCRM" />
+                <img className="h-8 w-auto" src="/assets/HikmaFlow--QfIME8Q.png" alt="HikmaFlow" />
               </div>
               <div className="ml-2">
                 <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  NeuraCRM
+                  HikmaFlow
                 </span>
               </div>
             </div>
@@ -274,7 +274,7 @@ const Landing: React.FC = () => {
               Loved by sales teams worldwide
             </h2>
             <p className="text-xl text-gray-600">
-              See what our customers are saying about NeuraCRM
+              See what our customers are saying about HikmaFlow
             </p>
           </div>
           
@@ -367,7 +367,7 @@ const Landing: React.FC = () => {
             Ready to transform your sales process?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Join thousands of sales teams already using NeuraCRM to close more deals
+            Join thousands of sales teams already using HikmaFlow to close more deals
           </p>
           <Link
             to="/organization-signup"
@@ -385,8 +385,8 @@ const Landing: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center mb-4">
-                <img className="h-8 w-auto" src="/assets/NeuraCRM--QfIME8Q.png" alt="NeuraCRM" />
-                <span className="ml-2 text-xl font-bold">NeuraCRM</span>
+                <img className="h-8 w-auto" src="/assets/HikmaFlow--QfIME8Q.png" alt="HikmaFlow" />
+                <span className="ml-2 text-xl font-bold">HikmaFlow</span>
               </div>
               <p className="text-gray-400">
                 The future of sales CRM, powered by AI and designed for modern teams.
@@ -426,7 +426,7 @@ const Landing: React.FC = () => {
           
           <div className="border-t border-gray-800 mt-8 pt-8 text-center">
             <p className="text-gray-400">
-              © 2024 NeuraCRM. All rights reserved.
+              © 2024 HikmaFlow. All rights reserved.
             </p>
           </div>
         </div>

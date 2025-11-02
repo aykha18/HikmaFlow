@@ -1,6 +1,6 @@
 import { NavLink, useLocation } from "react-router-dom";
 import { LayoutDashboard, Users, Contact, Kanban, Bot, Settings, LogOut, MessageCircle, Mail, Brain, UserCog, BookOpen, Building2, DollarSign, Headphones, TrendingUp, ChevronDown, ChevronRight, Phone, UserCheck, CheckCircle, Target, Mic, Database, FileText } from "lucide-react";
-import neuraLogo from "../assets/NeuraCRM.png";
+import hikmaLogo from "../assets/HikmaFlow.png";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
@@ -91,7 +91,7 @@ export default function Sidebar({ open: _open, onClose }: { open: boolean; onClo
         {/* Logo and subtitle (compact) */}
         <div className="flex flex-col items-center py-6">
           <div className="flex flex-col items-center mb-2">
-            <img src={neuraLogo} alt="NeuraCRM logo" className="w-14 h-14 rounded-full border-2 border-pink-300 shadow" />
+            <img src={hikmaLogo} alt="HikmaFlow logo" className="w-14 h-14 rounded-full border-2 border-pink-300 shadow" />
             <div className="text-xs text-blue-200 mt-2 text-center font-medium">Smarter Sales, Powered by AI</div>
           </div>
         </div>

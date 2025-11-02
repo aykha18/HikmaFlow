@@ -1,8 +1,8 @@
-# 🚀 NeuraCRM - Enterprise AI-Powered CRM & Call Center
+# 🚀 HikmaFlow - Enterprise AI-Powered CRM & Call Center
 
 **Transform Your Sales & Customer Experience with AI-Driven Intelligence**
 
-NeuraCRM is a comprehensive, enterprise-grade Customer Relationship Management system with integrated Call Center capabilities, powered by advanced AI and predictive analytics. Built with modern technology stack and designed for scalability, NeuraCRM delivers industry-leading features that revolutionize business operations.
+HikmaFlow is a comprehensive, enterprise-grade Customer Relationship Management system with integrated Call Center capabilities, powered by advanced AI and predictive analytics. Built with modern technology stack and designed for scalability, HikmaFlow delivers industry-leading features that revolutionize business operations.
 
 ---
 
@@ -135,8 +135,8 @@ NeuraCRM is a comprehensive, enterprise-grade Customer Relationship Management s
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/aykha18/NeuraCRM.git
-   cd NeuraCRM
+   git clone https://github.com/aykha18/HikmaFlow.git
+   cd HikmaFlow
    ```
 
 2. **Backend Setup**
@@ -356,7 +356,7 @@ The application is configured for Railway deployment with:
 - Auto-scaling capabilities
 
 ### **Production URL**
-- **Live Demo**: https://neuracrm.up.railway.app
+- **Live Demo**: https://hikmaflow.up.railway.app
 - **Demo Account**: nodeit@node.com / NodeIT2024!
 
 ---
@@ -486,9 +486,9 @@ The application is configured for Railway deployment with:
 - **Best Practices**: Industry-specific implementation guides
 
 ### **Support Channels**
-- **Email Support**: support@neura-crm.com
-- **Documentation**: https://docs.neura-crm.com
-- **Community Forum**: https://community.neura-crm.com
+- **Email Support**: support@hikmaflow.com
+- **Documentation**: https://docs.hikmaflow.com
+- **Community Forum**: https://community.hikmaflow.com
 - **GitHub Issues**: For bug reports and feature requests
 
 ---
@@ -506,7 +506,7 @@ For comprehensive documentation, see our [documentation portal](./docs/README.md
 
 ## 📄 **License**
 
-NeuraCRM is proprietary software. All rights reserved.
+HikmaFlow is proprietary software. All rights reserved.
 
 ---
 
@@ -514,7 +514,7 @@ NeuraCRM is proprietary software. All rights reserved.
 
 Built with modern web technologies and AI capabilities to provide the most comprehensive CRM and Call Center solution available.
 
-**NeuraCRM** - *Transforming Sales & Customer Experience with AI*
+**HikmaFlow** - *Transforming Sales & Customer Experience with AI*
 
 ---
 

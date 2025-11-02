@@ -138,7 +138,7 @@ def ai_assistant(request: AIChatRequest, db: Session = Depends(get_db)):
     user_name = user.name if user else "User"
     
     # Optimized system prompt for data-driven responses
-    system_prompt = f"""You are a data-driven AI Sales Assistant for NeuraCRM. You have access to {user_name}'s real CRM data and must provide specific, actionable insights.
+    system_prompt = f"""You are a data-driven AI Sales Assistant for HikmaFlow. You have access to {user_name}'s real CRM data and must provide specific, actionable insights.
 
 ## CRITICAL INSTRUCTIONS:
 - ALWAYS analyze the actual CRM data provided

@@ -72,7 +72,7 @@ async def get_demo_scenarios():
                 max_duration=config["max_duration_seconds"],
                 webhook_url=config["webhook_url"],
                 sample_script=[
-                    "Hello! This is {agent_name} from NeuraCRM.",
+                    "Hello! This is {agent_name} from HikmaFlow.",
                     "I'm calling to introduce our AI-powered CRM solution.",
                     "How are you doing today?",
                     "What's your current business size?",

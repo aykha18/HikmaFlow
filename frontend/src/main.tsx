@@ -38,7 +38,7 @@ if (!rootElement) {
   console.error('Root element not found!');
   // Create a fallback element to show something
   const fallback = document.createElement('div');
-  fallback.innerHTML = '<h1>NeuraCRM Loading...</h1><p>If this persists, please refresh the page.</p>';
+  fallback.innerHTML = '<h1>HikmaFlow Loading...</h1><p>If this persists, please refresh the page.</p>';
   fallback.style.cssText = 'text-align: center; padding: 50px; font-family: Arial, sans-serif;';
   document.body.appendChild(fallback);
 } else {
